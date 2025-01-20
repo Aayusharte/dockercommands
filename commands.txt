@@ -5,3 +5,6 @@ Docker commands
 3.docker images :it shows all the image files stored/downloaded in our local machine.
 4.docker container ls -a :it shows all the containers that is the one which are closed and the one which are open
  if we want to see only the active containers then just type docker containers ls.
+5. docker container stop container_id :this command helps to stop the container.
+6. docker logs -f container id :this command is used to get the logs related to container
+7. docker image history imagename:tagname(in28min/hello-world-rest-api:1.0.0-RELEASE) for example.
