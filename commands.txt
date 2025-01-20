@@ -1,0 +1,7 @@
+Docker commands 
+1. docker --version : this command helps use to find if docker is successfully installed in out system and what is the version of the installed docker.
+2.docker run -p 5000:5000 in28min/hello-world-rest-api:1.0.0-RELEASE
+   1.0.0-RELEASE-tag name in28min/hello-world-rest-api:is of image  -p 5000:5000 is done for port mapping that is first is host port 2nd is container port run:is used to           create and start a new container
+3.docker images :it shows all the image files stored/downloaded in our local machine.
+4.docker container ls -a :it shows all the containers that is the one which are closed and the one which are open
+ if we want to see only the active containers then just type docker containers ls.
